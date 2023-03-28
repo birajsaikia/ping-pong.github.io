@@ -1,0 +1,53 @@
+body{
+    background-image: url("./pawel-czerwinski-keVhq8uU23M-unsplash\ \(1\).jpg");
+    background-position: center;
+    background-size: 100%;
+
+}
+#container {
+    position: relative;
+    /* background-image: url(https://i.pinimg.com/originals/d0/4b/8c/d04b8cd39b4ad1fb1d5a07038501482a.jpg);
+    background-position: center;
+    background-size: 100% 100%; */
+}
+#press{
+    font-size: 10rem;
+    margin-left: 100px;
+    opacity: 0.5;
+}
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 42, 255);
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    background-image: url("C:/Users/Lenovo/Pictures/images.jpg");
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    /* background-color: blue; */
+    top: 0px;    
+}
+
+#rod2 {
+    /* background-color: rgb(81, 0, 157); */
+    bottom: 0px;
+}
+#scor{
+    color: rgb(31, 31, 31);
+    display: flex;
+    font-size: 2rem;
+}
